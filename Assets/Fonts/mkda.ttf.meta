@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: ff75f8017bcc3164da1ad0db754ff16e
+timeCreated: 1488683587
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: MuRdOiNk
+  fontNames:
+  - MuRdOiNk
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 21128c8a419644046847527a3c28e2d8, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

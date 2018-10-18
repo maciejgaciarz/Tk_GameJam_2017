@@ -1,0 +1,94 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1634048586502924}
+  m_IsPrefabParent: 1
+--- !u!1 &1634048586502924
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4118248475057598}
+  - component: {fileID: 114656614131678780}
+  m_Layer: 0
+  m_Name: Spawner
+  m_TagString: Untagged
+  m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4118248475057598
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1634048586502924}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 3.752, y: 0.685, z: 3.832}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114656614131678780
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1634048586502924}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b52dc7cae3b3f2f42b7028fef6af14fe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scaleSpeed: 0.01
+  objectsToSpawn:
+  - spawnObject: {fileID: 1545904052923116, guid: ade48d1d0da7a3e418a4dec99752b040,
+      type: 2}
+    maxObjects: 2
+    spawnTime: 3
+    typeOfSpawn: 0
+  - spawnObject: {fileID: 1720817069317196, guid: 2103862210f67c24ba853aab9fbd79dc,
+      type: 2}
+    maxObjects: 2
+    spawnTime: 3
+    typeOfSpawn: 0
+  - spawnObject: {fileID: 1506439110384482, guid: 3268d38bbce399d4daee3add20861b09,
+      type: 2}
+    maxObjects: 2
+    spawnTime: 3
+    typeOfSpawn: 0
+  - spawnObject: {fileID: 1267226845522892, guid: 97b1c6b22adb6dc48bcdc94a42b03ddf,
+      type: 2}
+    maxObjects: 2
+    spawnTime: 3
+    typeOfSpawn: 1
+  - spawnObject: {fileID: 1510969195000968, guid: d4a41e0d902318942b3ac8a621c5182e,
+      type: 2}
+    maxObjects: 2
+    spawnTime: 3
+    typeOfSpawn: 1
+  - spawnObject: {fileID: 1908708457159762, guid: b97e7b4adac8799449b82dca46f71fd3,
+      type: 2}
+    maxObjects: 2
+    spawnTime: 3
+    typeOfSpawn: 1
+  - spawnObject: {fileID: 1893202616885000, guid: 891c878749593ca4e8293e3d30688b86,
+      type: 2}
+    maxObjects: 2
+    spawnTime: 3
+    typeOfSpawn: 1
+  radiusOfArea: 1.25
+  heightOfResp: 0.25
+  respLevel: 0
+  spawnAreaRadius: 2.5
